@@ -98,11 +98,14 @@ public class Eon {
 		switch (length) {
 			case SHORT:
 				pluralResourceId = timeFrame.getShortResourceId();
+				break;
 			case MEDIUM:
 				pluralResourceId = timeFrame.getMediumResourceId();
+				break;
 			case LONG:
 			default:
 				pluralResourceId = timeFrame.getLongResourceId();
+				break;
 		}
 
 		return count + " " + context.getResources().getQuantityString(pluralResourceId, count);
