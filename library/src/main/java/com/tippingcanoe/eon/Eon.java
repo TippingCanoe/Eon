@@ -146,7 +146,9 @@ public class Eon {
 
     private static String getStringForTimeFrame(int count, TimeBuilder.TimeFrames timeFrame, Length length, Context context) {
 
+        // If we supplied our own custom time frames, then use those.
         if (customTimeFrames != null) {
+
             return count + " " + customTimeFrames.getTimeUnit(context, count, timeFrame, length);
 
         } else {
