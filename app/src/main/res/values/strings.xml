@@ -1,6 +1,128 @@
 <resources>
-	<string name="app_name">Eon</string>
+    <string name="app_name">Eon</string>
 
-	<string name="hello_world">Hello world!</string>
-	<string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <plurals name="milliseconds">
+        <item quantity="one">milliZecond</item>
+        <item quantity="other">milliZecondZ</item>
+    </plurals>
+
+    <plurals name="seconds">
+        <item quantity="one">Zecond</item>
+        <item quantity="other">ZecondZ</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">miNute</item>
+        <item quantity="other">miNuteZ</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">h0ur</item>
+        <item quantity="other">h0urZ</item>
+    </plurals>
+
+    <plurals name="days">
+        <item quantity="one">dAy</item>
+        <item quantity="other">dAyZ</item>
+    </plurals>
+
+    <plurals name="weeks">
+        <item quantity="one">w33k</item>
+        <item quantity="other">w33kZ</item>
+    </plurals>
+
+    <plurals name="months">
+        <item quantity="one">m0nth</item>
+        <item quantity="other">m0nthZ</item>
+    </plurals>
+
+    <plurals name="years">
+        <item quantity="one">y3ar</item>
+        <item quantity="other">y3arZ</item>
+    </plurals>
+
+    <plurals name="milliseconds_med">
+        <item quantity="one">mZ</item>
+        <item quantity="other">mZ</item>
+    </plurals>
+
+    <plurals name="seconds_med">
+        <item quantity="one">Zec</item>
+        <item quantity="other">ZecZ</item>
+    </plurals>
+
+    <plurals name="minutes_med">
+        <item quantity="one">min</item>
+        <item quantity="other">minZ</item>
+    </plurals>
+
+    <plurals name="hours_med">
+        <item quantity="one">hR</item>
+        <item quantity="other">hRZ</item>
+    </plurals>
+
+    <plurals name="days_med">
+        <item quantity="one">d@y</item>
+        <item quantity="other">d@yZ</item>
+    </plurals>
+
+    <plurals name="weeks_med">
+        <item quantity="one">wk</item>
+        <item quantity="other">wkZ</item>
+    </plurals>
+
+    <plurals name="months_med">
+        <item quantity="one">mN</item>
+        <item quantity="other">mNZ</item>
+    </plurals>
+
+    <plurals name="years_med">
+        <item quantity="one">yR</item>
+        <item quantity="other">yRZ</item>
+    </plurals>
+
+    <plurals name="milliseconds_short">
+        <item quantity="one">mZ</item>
+        <item quantity="other">mZ</item>
+    </plurals>
+
+    <plurals name="seconds_short">
+        <item quantity="one">Z</item>
+        <item quantity="other">Z</item>
+    </plurals>
+
+    <plurals name="minutes_short">
+        <item quantity="one">M</item>
+        <item quantity="other">M</item>
+    </plurals>
+
+    <plurals name="hours_short">
+        <item quantity="one">H</item>
+        <item quantity="other">H</item>
+    </plurals>
+
+    <plurals name="days_short">
+        <item quantity="one">D</item>
+        <item quantity="other">D</item>
+    </plurals>
+
+    <plurals name="weeks_short">
+        <item quantity="one">W</item>
+        <item quantity="other">W</item>
+    </plurals>
+
+    <plurals name="months_short">
+        <item quantity="one">M</item>
+        <item quantity="other">M</item>
+    </plurals>
+
+    <plurals name="years_short">
+        <item quantity="one">Y</item>
+        <item quantity="other">Y</item>
+    </plurals>
+
+
 </resources>

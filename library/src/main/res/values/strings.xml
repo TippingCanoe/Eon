@@ -1,124 +1,124 @@
 <resources>
-	<plurals name="milliseconds">
+	<plurals name="eon_milliseconds">
 		<item quantity="one">millisecond</item>
 		<item quantity="other">milliseconds</item>
 	</plurals>
 
-	<plurals name="seconds">
+	<plurals name="eon_seconds">
 		<item quantity="one">second</item>
 		<item quantity="other">seconds</item>
 	</plurals>
 
-	<plurals name="minutes">
+	<plurals name="eon_minutes">
 		<item quantity="one">minute</item>
 		<item quantity="other">minutes</item>
 	</plurals>
 
-	<plurals name="hours">
+	<plurals name="eon_hours">
 		<item quantity="one">hour</item>
 		<item quantity="other">hours</item>
 	</plurals>
 
-	<plurals name="days">
+	<plurals name="eon_days">
 		<item quantity="one">day</item>
 		<item quantity="other">days</item>
 	</plurals>
 
-	<plurals name="weeks">
+	<plurals name="eon_weeks">
 		<item quantity="one">week</item>
 		<item quantity="other">weeks</item>
 	</plurals>
 
-	<plurals name="months">
+	<plurals name="eon_months">
 		<item quantity="one">month</item>
 		<item quantity="other">months</item>
 	</plurals>
 
-	<plurals name="years">
+	<plurals name="eon_years">
 		<item quantity="one">year</item>
 		<item quantity="other">years</item>
 	</plurals>
 
-	<plurals name="milliseconds_med">
+	<plurals name="eon_milliseconds_med">
 		<item quantity="one">ms</item>
 		<item quantity="other">ms</item>
 	</plurals>
 
-	<plurals name="seconds_med">
+	<plurals name="eon_seconds_med">
 		<item quantity="one">sec</item>
 		<item quantity="other">secs</item>
 	</plurals>
 
-	<plurals name="minutes_med">
+	<plurals name="eon_minutes_med">
 		<item quantity="one">min</item>
 		<item quantity="other">mins</item>
 	</plurals>
 
-	<plurals name="hours_med">
+	<plurals name="eon_hours_med">
 		<item quantity="one">hr</item>
 		<item quantity="other">hrs</item>
 	</plurals>
 
-	<plurals name="days_med">
+	<plurals name="eon_days_med">
 		<item quantity="one">day</item>
 		<item quantity="other">days</item>
 	</plurals>
 
-	<plurals name="weeks_med">
+	<plurals name="eon_weeks_med">
 		<item quantity="one">wk</item>
 		<item quantity="other">wks</item>
 	</plurals>
 
-	<plurals name="months_med">
+	<plurals name="eon_months_med">
 		<item quantity="one">mn</item>
 		<item quantity="other">mns</item>
 	</plurals>
 
-	<plurals name="years_med">
+	<plurals name="eon_years_med">
 		<item quantity="one">yr</item>
 		<item quantity="other">yrs</item>
 	</plurals>
 
-	<plurals name="milliseconds_short">
+	<plurals name="eon_milliseconds_short">
 		<item quantity="one">ms</item>
 		<item quantity="other">ms</item>
 	</plurals>
 
-	<plurals name="seconds_short">
+	<plurals name="eon_seconds_short">
 		<item quantity="one">s</item>
 		<item quantity="other">s</item>
 	</plurals>
 
-	<plurals name="minutes_short">
+	<plurals name="eon_minutes_short">
 		<item quantity="one">m</item>
 		<item quantity="other">m</item>
 	</plurals>
 
-	<plurals name="hours_short">
+	<plurals name="eon_hours_short">
 		<item quantity="one">h</item>
 		<item quantity="other">h</item>
 	</plurals>
 
-	<plurals name="days_short">
+	<plurals name="eon_days_short">
 		<item quantity="one">d</item>
 		<item quantity="other">d</item>
 	</plurals>
 
-	<plurals name="weeks_short">
+	<plurals name="eon_weeks_short">
 		<item quantity="one">w</item>
 		<item quantity="other">w</item>
 	</plurals>
 
-	<plurals name="months_short">
+	<plurals name="eon_months_short">
 		<item quantity="one">m</item>
 		<item quantity="other">m</item>
 	</plurals>
 
-	<plurals name="years_short">
+	<plurals name="eon_years_short">
 		<item quantity="one">y</item>
 		<item quantity="other">y</item>
 	</plurals>
 
-	<string name="phrase_ago">{time} ago</string>
-	<string name="phrase_from_now">in {time}</string>
+	<string name="eon_phrase_ago">{time} ago</string>
+	<string name="eon_phrase_from_now">in {time}</string>
 </resources>
