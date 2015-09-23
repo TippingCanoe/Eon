@@ -17,37 +17,6 @@ public class Eon {
         customTimeFrames = timeFrames;
     }
 
-    /**
-     * Supply your own string to be injected with time units (e.g. "Submitted {eon}, and {eon} ago"
-     * might be converted to "Submitted 5 minutes, and 2 seconds ago").
-     *
-     * @param eonFormattedString
-     * @param origin
-     * @param length
-     * @param includeZeroUnits
-     * @param smallestUnit
-     * @param largestUnit
-     * @param context
-     * @return
-     */
-    public static String getRelativeDate(String eonFormattedString, Date origin, Length length, boolean includeZeroUnits, TimeBuilder.TimeFrames smallestUnit, TimeBuilder.TimeFrames largestUnit, Context context) {
-
-        final String KEY_REGEX = "\\{eon\\}";
-        String[] placeholders = eonFormattedString.split(KEY_REGEX);
-
-        if (placeholders.length > 0) {
-
-            List<String> units = getTimeUnits(origin, length, placeholders.length, includeZeroUnits, smallestUnit, largestUnit, context);
-
-            // NOTE: units and placeholders should have the same length
-            for (int i = 0; i < placeholders.length; i++) {
-                eonFormattedString = eonFormattedString.replaceFirst(KEY_REGEX, units.get(i));
-            }
-        }
-
-        return eonFormattedString;
-    }
-
     public static List<String> getTimeUnits(Date origin, Length length, int maxUnits, boolean includeZeroUnits, TimeBuilder.TimeFrames smallestUnit, TimeBuilder.TimeFrames largestUnit, Context context) {
 
         long currentMs = System.currentTimeMillis();

@@ -31,12 +31,12 @@ public class MainActivity extends ActionBarActivity {
 
         Eon.init(builder.build());
 
-        Log.v("Eon", Eon.getRelativeDate("Reported {eon}, and {eon} ago.",
-                new Date(System.currentTimeMillis() - new TimeBuilder().withYears(0).withWeeks(3).withDays(2).withHours(1).withSeconds(20).getMs()),
-                Eon.Length.LONG,
+        Log.v("DEBUG", "Test " + Eon.getTimeUnits(new Date(System.currentTimeMillis() - new TimeBuilder().withYears(0).withWeeks(3).withDays(2).withHours(1).withSeconds(20).getMs()),
+                Eon.Length.MEDIUM,
+                2,
                 false,
                 TimeBuilder.TimeFrames.SECOND,
-                TimeBuilder.TimeFrames.YEAR,
+                TimeBuilder.TimeFrames.DAY,
                 this));
 
         Log.v("Eon", Eon.getRelativeDate(new Date(System.currentTimeMillis() - new TimeBuilder().withYears(0).withWeeks(3).withDays(2).withHours(1).withSeconds(20).getMs()),
